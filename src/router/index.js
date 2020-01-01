@@ -11,7 +11,7 @@ export const router = new VueRouter({
   routes: [
     {
     path: '/',
-    redirect: '/news',
+    redirect: '/news',  // 8080서버에서 바로 감
     },
     {
       path: '/news',
