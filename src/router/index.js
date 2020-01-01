@@ -7,10 +7,11 @@ import AskView from '../views/AskView.vue'
 Vue.use(VueRouter)
 
 export const router = new VueRouter({
+  mode: 'history', // url #해쉬를 없앰
   routes: [
     {
     path: '/',
-    component: '',
+    redirect: '/news',
     },
     {
       path: '/news',
